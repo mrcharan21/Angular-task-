@@ -1,5 +1,5 @@
 
-# Angular Fresher Mini Project    To run the project follow the steps below,go to line 70 and above.
+# Angular Fresher Mini Project    To run the project follow the steps below:
 
 ##  Project Description
 This project is developed as part of an **Angular Fresher Assignment** to demonstrate basic Angular concepts such as components, routing, forms, validation, and UI handling.
