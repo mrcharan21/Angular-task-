@@ -1,59 +1,115 @@
-# AngularMiniProject
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2.
+# Angular Fresher Mini Project    To run the project follow the steps below,go to line 70 and above.
 
-## Development server
+##  Project Description
+This project is developed as part of an **Angular Fresher Assignment** to demonstrate basic Angular concepts such as components, routing, forms, validation, and UI handling.
 
-To start a local development server, run:
+The application contains a **Login page** and a **Home page** with  route protection.
 
+---
+
+##  Objective
+To evaluate Angular fundamentals including:
+- Components
+- Routing
+- Forms (Template-driven & Reactive)
+- Event binding
+- Conditional rendering
+- Basic UI handling
+
+---
+
+## Technology Stack
+- Angular (Version 12 or above) used current version 12.2.16
+- TypeScript
+- HTML, CSS
+- Bootstrap (for responsive UI)
+- Swal fire (sweet alert) for notifications
+
+---
+
+##  Application Features
+
+###  Login Page
+- Username and Password input fields
+- Login button
+- Authentication logic
+- Error message for invalid credentials
+- Two-way binding using `ngModel`
+- Event binding using `(click)`
+
+**Login Credentials**
+
+                            username : admin
+                            password : admin123
+
+
+---
+
+###  Home Page
+- Reactive Form with validation
+- Input fields:
+  - Name (Required)
+  - Email (Required & valid email)
+  - Age (Dropdown, must be greater than 1)
+- Add data to table
+- Delete row from table
+- “No data available” message when table is empty
+- Logout functionality
+
+---
+
+###  Security & Data Storage
+- Route Guard to protect Home page
+- Login state stored in `localStorage`
+- Table data stored in `localStorage`
+- Data persists after page refresh
+- Logout clears stored data
+
+---
+
+
+---
+
+##  How to Run the Project
+
+### Step 1: Install Node.js
+Download and install Node.js (LTS):
+https://nodejs.org
+
+---
+
+### Step 2: Install Angular CLI
 ```bash
-ng serve
+npm install -g @angular/cli
+
+
+
+```
+### Step 3: Clone the Repository
+```bash
+git clone https://github.com/mrcharan21/Angular-task-.git   
+cd angular-mini-project
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+### Step 4: Install Dependencies
 ```bash
-ng generate component component-name
+npm install
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+### Step 5: Run the Application
 ```bash
-ng generate --help
+
+    ng serve
+
 ```
+Open your browser and navigate to `http://localhost:4200` to see the application in action.
 
-## Building
+---
+##  Conclusion
+This Angular mini project demonstrates the essential features of an Angular application, including component-based architecture, routing, form handling, and state management. It serves as a foundational project for Angular beginners to understand and implement basic concepts effectively.
 
-To build the project run:
 
-```bash
-ng build
-```
+Name : Charan kumar 
+Email : charanguguloth13@gmail.com
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
