@@ -1,4 +1,70 @@
+/* Home component styles - inspired by login.component.css */
+:host {
+  display: block;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5d5d5 0%, #e8c5e8 50%, #d5d5f5 100%);
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Minimal home component styles (kept only rules used by the template) */
+:host {
+  display: block;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5d5d5 0%, #e8c5e8 50%, #d5d5f5 100%);
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Inputs use Bootstrap's .form-control; we override a couple of visual details */
+.form-control {
+  border: 2px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: #fafafa;
+}
+
+.form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102,126,234,0.06);
+  background: #fff;
+}
+
+/* Keep Add button styling tweak */
+.btn-success {
+  border-radius: 8px;
+}
+
+/* Table rules used in the template */
 table {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 12px;
+  border-collapse: collapse;
+}
+
+table thead th {
+  background: #222;
+  color: #fff;
+  font-weight: 600;
+}
+
+table tbody td {
+  vertical-align: middle;
+}
+
+@media (max-width: 767.98px) {
+  .container-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
