@@ -1,4 +1,4 @@
-/* Home component styles - inspired by login.component.css */
+/* Home component styles*/
 :host {
   display: block;
   min-height: 100vh;
@@ -12,7 +12,7 @@
   padding-bottom: 40px;
 }
 
-/* Minimal home component styles (kept only rules used by the template) */
+/* Minimal home component styles */
 :host {
   display: block;
   min-height: 100vh;
@@ -45,7 +45,7 @@
   border-radius: 8px;
 }
 
-/* Table rules used in the template */
+/* Table */
 table {
   width: 100%;
   margin-top: 12px;
